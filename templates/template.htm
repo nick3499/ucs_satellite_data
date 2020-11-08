@@ -39,7 +39,7 @@
       <div class="darkorange">Launch date: </div><div class="strongblue">{{ record[19] }}</div>
       <div class="darkorange">Operator/owner: </div><div class="strongblue">{{ record[4] }}</div>
       <div class="darkorange">Country: </div><div class="strongblue">{{ record[3] }}</div>
-      <div class="darkorange">Detailed purpose: </div><div class="strongblue">{{ record[7] }}</div>
+      <div class="darkorange">Detailed purpose: </div><div class="strongblue">{{ N/A' if record[7] == '' else record[7] }}</div>
       <div class="darkorange">Launch date: </div><div class="strongblue">{{ record[19] }}</div>
       <div class="darkorange">Lifetime: </div><div class="strongblue">{{ 'N/A' if record[20] == '' else record[20] }} yrs.</div>
       <div class="darkorange">COSPAR number: </div><div class="strongblue">{{ record[24] }}</div>
