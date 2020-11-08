@@ -1,9 +1,9 @@
 #! /bin/python3
 '''Get satellite data, then render template to browser.'''
 # data: https://www.ucsusa.org/media/11493 (1 August 2020)
+import csv
 from flask import Flask
 from flask import render_template
-import csv
 
 APP = Flask(__name__)  # Flask instance
 SAT_DATA = []  # satellite data
